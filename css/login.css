@@ -1,0 +1,81 @@
+body{
+	background-image: url("../img/bg.jpg");
+}
+#contenedor{
+	width: 400px;
+	font-family: arial;
+	background-color: #ccc;
+	margin: 10% auto;
+	padding-top:0px;
+	box-shadow: 10px 10px 20px #000;
+}
+.normal{
+	color: #fff;
+	background-color: #424242;
+	padding: 10px 20px 10px 80px;
+	margin-left:  -20px; 
+	position: relative;
+	width: 50%;
+	box-shadow: 1px 1px 5px #000;
+}
+.forma{
+	width: 0px;
+	height: 0px;
+	line-height: 0px;
+	border-left: 20px solid transparent;
+	border-top: 20px solid #151515;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+}
+.titular{
+	background-color: #000;
+	padding: 1px;
+	color: #fff;
+	text-align: center;
+}
+.txt1{
+	border: 0px;
+	border: 1px solid #555;
+	padding: 5px 5px 5px 25px;
+	background-image: url("../img/user.png");
+	background-repeat: no-repeat;
+	background-position: 2px 4px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.txt2{
+	border: 0px;
+	border: 1px solid #555;
+	padding: 6px 5px 4px 25px;
+	background-image: url("../img/pass.png");
+	background-repeat: no-repeat;
+	background-position: 2px 4px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+label{
+	font-weight: bolder;
+	font-size: 16px;
+	margin:5px 20px;
+}
+.for{
+	padding: 5px;
+}
+.button{
+	margin:5px 20px;
+	padding:5px 10px 5px 25px;
+	font-size: 16px;
+	background-color: #a0c281;
+	border: 1px solid #8cb269;
+	color: #444;
+	font-size: 14px;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	background-image: url("../img/llave.png");
+	background-repeat: no-repeat;
+	background-position: 2px 4px;
+}
+.button:hover{
+	color: #fff;
+}
