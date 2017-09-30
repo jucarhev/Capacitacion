@@ -9,8 +9,11 @@ include("../conf/conf.php");
         // subir imagen al servidor
         if(move_uploaded_file($temp, $destino.$nombre))
         {
-            $query = "INSERT INTO fotos VALUES('','".$nombre."')";
-            $con->query($query)
+            $query = "INSERT INTO fotos(nombre_foto) VALUES('".$nombre."')";
+            if($con->query($query)){
+                echo "Echo";
+            }else{echo "false";}
+
         }
     }
 ?>

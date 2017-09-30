@@ -1,9 +1,7 @@
 <?php
 	$hostname="localhost";
 	$username="root";
-	//coloque entre las comillas la contraseña del servidor 
-	//ejemplo $password="contraseña";
-	$password="";
+	$password="root";
 	$dbname="scc";
 
 	$con = new mysqli($hostname,$username,$password,$dbname);
