@@ -5,23 +5,23 @@ $UserPass=$_POST["UserPass"];
 $adm="Administrador";
 $jc="Jefe de capacitacion";
 $jd="Jefe de departamento";
-$result=$con->query("SELECT * FROM usuario WHERE usuario='$UserName';");
+$result=$con->query("SELECT * FROM usuario WHERE user='$UserName';");
 if ($row=$result->fetch_array()) 
 {
 	if ($row["password"]==$UserPass) {
-		if ($row["tipouser"]==$adm) {
+		if ($row["type"]==$adm) {
 			session_start();
-			$_SESSION['usuario']=$UserName;
+			$_SESSION['user']=$UserName;
 			header("Location: ../adm/index.php");
 		}
-		if ($row["tipouser"]==$jc) {
+		if ($row["type"]==$jc) {
 			session_start();
-			$_SESSION['usuario']=$UserName;
+			$_SESSION['user']=$UserName;
 			header("Location: ../jeca/index.php");
 		}
-		if ($row["tipouser"]==$jd) {
+		if ($row["type"]==$jd) {
 			session_start();
-			$_SESSION['usuario']=$UserName;
+			$_SESSION['user']=$UserName;
 			header("Location: ../jede/index.php");
 		}	
    }
