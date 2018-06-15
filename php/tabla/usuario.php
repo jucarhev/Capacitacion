@@ -11,33 +11,40 @@
 	$res=$db->query($query);
 ?>
 <?php echo $total; ?> registros encontrados
- 	<hr class="margen">
-<table  width="100%" cellspacing="0" >
+ <hr class="margen">
+
+<div class="container" style="margin-bottom: 5px;">
+	<div class="row">
+		<div class="col-md-10">
+			<form action="" method="post" onsubmit="buscadorU();return false">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="form-group">
+							<input type="text" id="buscadorUnidad" placeholder="Ingrese el nombre del usuario" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<input type="submit" name="" value="Buscar" class="btn btn-success">
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-2">
+			<button type="button" onclick="formulario_usuario();return false" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+				Agregar
+			</button>
+		</div>
+	</div>
+</div>
+
+<table class="table table-bordered table-striped table-hover">
 	<tr>
-		<td colspan="6" class="center"><h1 class="h1">Usuarios</h1></td>
-	</tr>
-	<tr>
-		<td colspan="5">
-			<div class="espacio">
-				<form action="" method="post" onsubmit="buscadorU();return false">
-					<input type="text" id="buscadorUsuario" value="" placeholder="Ingrese el nombre del usuario" class="espacio1" required>
-					<input type="submit" name="" value="Buscar" class="espacio2">
-				</form>
-			</div>
-		</td>
-		<td class="center">
-			<a href="" title="" onclick="abrirventana(2);return false"><img src="../../img/add.png" alt=""></a>
-		</td>
-	</tr>
-</table>
-<table  width="100%" cellspacing="0" border="1">
-	<tr>
-		<td class="Cabeza">Nombre</td>
-		<td class="Cabeza">Usuario</td>
-		<td class="Cabeza">Password</td>
-		<td class="Cabeza">Unidad</td>
-		<td class="Cabeza">Tipo de usuario</td>
-		<td colspan="3" class="Cabeza">Operaciones</td>
+		<th>Nombre</th>
+		<th>Usuario</th>
+		<th>Password</th>
+		<th>Unidad</th>
+		<th>Tipo de usuario</th>
+		<th colspan="3">Operaciones</th>
 	</tr>
 <?php
 	if ($res->num_rows>0) {

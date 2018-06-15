@@ -1,20 +1,19 @@
-
 <form action="" method="" accept-charset="utf-8" onsubmit="GuardarUsuario();return false">
-	<div class="inputT">
-		<span class="label">Nombre del usuario:</span>
-		<input type="text" id="NombreUser" class="inputTT" placeholder="Nombre de usuario" autofocus required>
+	<div class="form-group">
+		<span>Nombre del usuario:</span>
+		<input type="text" id="NombreUser" class="form-control" placeholder="Nombre de usuario" autofocus required>
 	</div>
-	<div class="inputT">
-		<span class="label">Nombre:</span>
-		<input type="text" id="Nombre" class="inputTT" placeholder="Nombre de usuario"  required>
+	<div class="form-group">
+		<span>Nombre:</span>
+		<input type="text" id="Nombre" class="form-control" placeholder="Nombre de usuario"  required>
 	</div>
-	<div class="inputT">
-		<span class="label">Password:</span>
-		<input type="text" id="Password" class="inputTT" placeholder="Password del usuario" required>
+	<div class="form-group">
+		<span>Password:</span>
+		<input type="text" id="Password" class="form-control" placeholder="Password del usuario" required>
 	</div>
-	<div class="inputT">
-		<span class="label">Unidad:</span>
-		<select id="Unidad">
+	<div class="form-group">
+		<span>Unidad:</span>
+		<select id="Unidad" class="form-control">
 			<?php  
 				include("../conf/conf.php");
 				$query="SELECT * FROM unidad where nombre not like '%Administrador%'";
@@ -29,6 +28,6 @@
 	</div>
 	<hr>
 	<div>
-		<input type="submit" name="" value="Guardar datos" class="btn-primary">
+		<input type="submit" name="" value="Guardar datos" class="btn btn-primary">
 	</div>
 </form>
