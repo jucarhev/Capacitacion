@@ -18,7 +18,6 @@
 	<link rel="stylesheet" href="../../css/menu.css">
 	<link rel="stylesheet" href="../../css/ventanas.css">
     <link rel="stylesheet" href="../../css/bootstrap.css">
-
     <script src="../../js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8" async defer></script>
     <script type="text/javascript" src="ajaxupload.js"></script>
     <script src="../../js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
