@@ -1,8 +1,8 @@
 <?php
 	$hostname="localhost";
-	$username="scc";
-	$password="123456";
-	$dbname="scc";
+	$username="root";
+	$password="lenov";
+	$dbname="capacitacion";
 
 	$con = new mysqli($hostname,$username,$password,$dbname);
 	$db = new mysqli($hostname,$username,$password,$dbname);
