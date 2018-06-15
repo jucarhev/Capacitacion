@@ -34,12 +34,49 @@
 	<link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon" />
 	<title>Administrador</title>
 	<link rel="stylesheet" href="../../css/estilos.css">
-	<link rel="stylesheet" href="../../css/menu.css">
-	<link rel="stylesheet" href="../../css/ventanas.css">
-	<script src="../../js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script src="../../js/funciones.js" type="text/javascript" charset="utf-8" async defer></script>
+    <link rel="stylesheet" href="../../css/menu.css">
+    <link rel="stylesheet" href="../../css/ventanas.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
 </head>
 <body>
+<!-- Navbar desde la migracion -->
+<nav class="navbar navbar-inverse" style="border-radius: 0;">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" onclick="PaginaPrincipal();return false">Home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#" onclick="tablaUnidad(0);return false" >Unidad</a></li>
+                <li><a href="#" onclick="tablaUsuario(0);return false">Usuarios</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $UserSession; ?> | Jefe de capacitaci&oacute;n | <?php echo $unidadUsuario; ?> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a href="#" >Recargar</a></li>
+            <li><a href="#"">Informacion</a></li>
+            <li><a href="#">Errores</a></li>
+            <li><a href="#">Herramientas</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="../verif/logout.php">Cerrar sesion</a></li>
+            </ul>
+            </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!--  end navbar -->
+
 	<header>
 		<div id="subheader">
 			<div id="logosHeader">
@@ -138,7 +175,12 @@
         <hr>
         <div id="formulario3"></div>
     </div>
-</div> 
+</div>
+
+    <script src="../../js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../js/funciones.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../js/funcion_adm.js" type="text/javascript" charset="utf-8" async defer></script>
 <body onload="javascript:PaginaPrincipal2();javascript:CargarImagenJC();">
 </body>
 </html>

@@ -9,8 +9,10 @@
 	$query="SELECT  * FROM unidad  WHERE nombre NOT LIKE '%Administrador%' LIMIT $limite, 20  ";
 	$res=$db->query($query);
 ?>
-<?php echo $total; ?> registros encontrados
- <hr class="margen">
+<div class="container" style="padding: 5px;">
+	<?php echo $total; ?> registros encontrados
+	<hr class="margen">
+</div>
 
 <div class="container" style="margin-bottom: 5px;">
 	<div class="row">

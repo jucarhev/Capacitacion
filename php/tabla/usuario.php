@@ -10,7 +10,9 @@
 	$query="SELECT  * FROM usuario WHERE tipouser='Jefe de capacitacion' LIMIT $limite, 20  ";
 	$res=$db->query($query);
 ?>
+<div class="container" style="padding: 5px;">
 <?php echo $total; ?> registros encontrados
+</div>
  <hr class="margen">
 
 <div class="container" style="margin-bottom: 5px;">

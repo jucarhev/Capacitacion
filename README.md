@@ -1,3 +1,5 @@
+# Proyecto en remodelacion. Errores presentes, no descargar de momento
+
 # Capacitacion
 Software de control de capacitacion
 

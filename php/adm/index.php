@@ -141,7 +141,7 @@
                 <div class="modal-body" id="formulario_adm">
                     ...
                 </div>
-            </div>>
+            </div>
         </div>
     </div>
 </div>
