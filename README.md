@@ -9,3 +9,7 @@ El presente proyecto esta siendo remodelado pero debido a inprevistos, el desarr
 
 * Migrar bootstrap 3
 * Migrara a jquery
+
+
+## Actualizaciones
+* 1 de octubre del 2020: Se hizo una modificacion a todo el proyecto para reescribirlo desde cero en la misma carpeta.
