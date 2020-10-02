@@ -49,7 +49,7 @@
 							<h3>Sign in</h3>
 						</div>
 						<div class="panel-body">
-							<form action="#" method="POST" role="form">
+							<form action="core/login.session.php" method="POST" role="form">
 								<div class="form-group">
 									<label for="">E-mail</label>
 									<input type="email" class="form-control" id="email" name="email" placeholder="Ingrese email">
@@ -68,12 +68,15 @@
 			</div>
 		</div>
 	</section>
-
+<?php echo sha1("12345678") ?>
 	<footer id="footer">
 		<div class="container">
 			Todos lo derechos reservador &copy; 2019
 		</div>
 	</footer>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
 
 </body>
 </html>
