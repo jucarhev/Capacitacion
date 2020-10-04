@@ -68,7 +68,6 @@
 			</div>
 		</div>
 	</section>
-<?php echo sha1("12345678") ?>
 	<footer id="footer">
 		<div class="container">
 			Todos lo derechos reservador &copy; 2019

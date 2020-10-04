@@ -42,7 +42,7 @@ if(!isset($_SESSION['usuario'])) {
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Welsome Brad</a></li>
+					<li><a href="#">Welsome <?php echo $_SESSION['usuario']; ?></a></li>
 					<li><a href="core/logout.session.php">Logout</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
@@ -152,7 +152,7 @@ if(!isset($_SESSION['usuario'])) {
 
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3>Users</h3>
+							<h3>Compa&ntilde;&iacute;a</h3>
 						</div>
 						<div class="panel-body">
 							<table class="table table-striped table-hover">
@@ -246,6 +246,7 @@ if(!isset($_SESSION['usuario'])) {
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/sweetalert2@10.js"></script>
 <script src="assets/js/functions.js"></script>
 
 </body>

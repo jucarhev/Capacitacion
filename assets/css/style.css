@@ -65,12 +65,55 @@ body {
 	margin-top: 30px;
 }
 
-/* */
+/* -------------- */
 
 .white{
   color: white;
 }
 
+
+
+#custom-search-input {
+		margin:0;
+		margin-top: 10px;
+		padding: 0;
+	}
+
+#custom-search-input .search-query {
+	padding-right: 3px;
+	padding-right: 4px \9;
+	padding-left: 3px;
+	padding-left: 4px \9;
+	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+	margin-bottom: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#custom-search-input button {
+	border: 0;
+	background: none;
+	/** belows styles are working good */
+	padding: 2px 5px;
+	margin-top: 2px;
+	position: relative;
+	left: -28px;
+	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+	margin-bottom: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color:#D9230F;
+}
+
+.search-query:focus + button {
+z-index: 3;   
+}
+
+
+	
 /*  navbar */
 .navbar-default {
   background-color: #e74c3c;
@@ -148,16 +191,16 @@ body {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #e2e3ee;
+	color: #e2e3ee;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffbcbc;
+	color: #ffbcbc;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffbcbc;
-    background-color: #c0392b;
+	color: #ffbcbc;
+	background-color: #c0392b;
   }
 }
