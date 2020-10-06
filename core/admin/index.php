@@ -1,3 +1,10 @@
+<?php 
+require_once "../../config/var.php"; 
+require_once "../comodo.php";
+
+$connection = new Comodo($HOSTNAME, $USERNAME, $PASSWORD, $DATABASE, $SOCKET, $PORT);
+?>
+
 <div class="panel panel-default">
 	<div class="panel-heading main-color-bg">
 		<h3 class="panel-title">Acciones</h3>
@@ -39,11 +46,8 @@
 			</thead>
 			<tbody>
 				<?php 
-				require_once "../../config/var.php"; 
-				require_once "../comodo.php";
-
-				$connection = new Comodo($HOSTNAME, $USERNAME, $PASSWORD, $DATABASE, $SOCKET, $PORT);
-
+				
+				$sql = "select * from companies";
 				$result = $connection->read("select * from companies");
 
 				foreach ($result as $row):
@@ -53,18 +57,24 @@
 					<td> <?php echo $row['id']; ?></td>
 					<td><?php echo $row['name']; ?></td>
 					<td>
-						<a href="#">Modificar</a>
+						<a href="#" onclick="update_company(<?php echo $row['id']; ?>);return false">Modificar</a>
 					</td>
 					<td>
 						<a href="#">Info</a>
 					</td>
 					<td>
-						<a href="#">Eliminar</a>
+						<a href="#" onclick="delete_company(<?php echo $row['id']; ?>);return false">Eliminar</a>
 					</td>
 				</tr>
 				<?php endforeach; ?>
 			</tbody>
 		</table>
+
+		<?php
+		require_once "../paginacion.php";
+		$pagina = new Pagination($connection);
+		?>
+
 	</div>
 </div>
 
@@ -92,4 +102,8 @@
 			</div>
 		</div>
 	</div>
+</div>
+
+<div id="modal_company">
+	
 </div>

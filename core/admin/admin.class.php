@@ -11,9 +11,14 @@ if($action == 'create'){
 	$result = $adm->save_company($_POST['name']);
 	echo $result;
 }elseif ($action == 'update') {
-	# code...
+	$name = $_POST['name'];
+	$id = $_POST['id'];
+	$result = $adm->update_data($id, $name);
+	echo $result;
+
 }elseif ($action == 'delete') {
-	# code...
+	$result = $adm->delete_company($_POST['id']);
+
 }elseif ($action == 'select') {
 	# code...
 }
@@ -34,6 +39,19 @@ class admin{
 			"name"=>$name
 		);
 		return $this->connection->create( 'companies', $data );
+	}
+
+	function delete_company($id){
+		return $this->connection->delete( 'companies', 'id='.$id );
+	}
+
+	function update_data($id, $name){
+		$data = array(
+			"name"=>$name
+		);
+		$where = "id=".$id;
+		return $this->connection->update('companies', $data, $where);
+		//Esto retornara un Ok o un Error
 	}
 }
 
