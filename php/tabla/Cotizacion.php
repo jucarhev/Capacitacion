@@ -19,8 +19,8 @@
 	</tr>
 	<tr>
 		<td class="center">
-			<a href="" title="Generar reporte" onclick="ventana3(5);return false"><img src="../../img/icono_cotice.gif" alt=""></a>
-			<a href="" title="Ver cursos aprobados" onclick="CursosPreoK();return false"><img src="../../img/archivos.png" alt=""></a>
+			<a href="" title="Generar reporte" onclick="ventana3(5);return false"><img src="../../assets/img/icono_cotice.gif" alt=""></a>
+			<a href="" title="Ver cursos aprobados" onclick="CursosPreoK();return false"><img src="../../assets/img/archivos.png" alt=""></a>
 		</td>
 	</tr>
 </table>

@@ -30,29 +30,29 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon" />
 	<title>Administrador</title>
-	<link rel="stylesheet" href="../../css/estilos.css">
-	<link rel="stylesheet" href="../../css/menu.css">
-	<link rel="stylesheet" href="../../css/ventanas.css">
-	<script src="../../js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script src="../../js/funciones.js" type="text/javascript" charset="utf-8" async defer></script>
+	<link rel="stylesheet" href="../../assets/css/estilos.css">
+	<link rel="stylesheet" href="../../assets/css/menu.css">
+	<link rel="stylesheet" href="../../assets/css/ventanas.css">
+	<script src="../../assets/js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="../../assets/js/funciones.js" type="text/javascript" charset="utf-8" async defer></script>
 </head>
 <body>
 	<header>
 		<div id="subheader">
 			<div id="logosHeader">
                 <div id="ImagenLogo"></div>
-                <div><img src="../../img/LogoSoft.png" height="96"></div>               
+                <div><img src="../../assets/img/LogoSoft.png" height="96"></div>               
             </div>
 			<div id="sesionUser">
                 <div id="sesionUser1">
                 	<?php echo $UserSession; ?> | Jefe de departamento | <?php echo $unidadUsuario; ?> | <?php echo $depauser; ?>
                 </div>
                 <div id="sesionUser2">                	
-                    <div id="IconoHome1"><a onclick="PaginaPrincipal2();return false" style="cursor:pointer;"><img src="../../img/info0.png" title="Recargar el sistema" style="margin-top:4px;"></a></div>
-                	<div id="IconoHome1"><a onclick="kat();return false"><img src="../../img/info1.png" title="Informacion del sistema"></a></div>
-                    <div id="IconoHome1"><a onclick="ventana3(3);return false" style="cursor:pointer;"><img src="../../img/info2.png" title="Errores"></a></div>
-                    <div id="IconoHome1"><a onclick="ventanajd2(1);return false" style="cursor:pointer;"><img src="../../img/Herramientas2.png" title="Herramientas"></a></div>
-                    <div id="IconoHome1"><a href="../verif/logout.php"><img src="../../img/info4.png" title="Cerrar Sesion"></a></div>
+                    <div id="IconoHome1"><a onclick="PaginaPrincipal2();return false" style="cursor:pointer;"><img src="../../assets/img/info0.png" title="Recargar el sistema" style="margin-top:4px;"></a></div>
+                	<div id="IconoHome1"><a onclick="kat();return false"><img src="../../assets/img/info1.png" title="Informacion del sistema"></a></div>
+                    <div id="IconoHome1"><a onclick="ventana3(3);return false" style="cursor:pointer;"><img src="../../assets/img/info2.png" title="Errores"></a></div>
+                    <div id="IconoHome1"><a onclick="ventanajd2(1);return false" style="cursor:pointer;"><img src="../../assets/img/Herramientas2.png" title="Herramientas"></a></div>
+                    <div id="IconoHome1"><a href="../verif/logout.php"><img src="../../assets/img/info4.png" title="Cerrar Sesion"></a></div>
                 </div>
 		    </div>
         </div>
@@ -91,7 +91,7 @@
             <span style="font-size: 20px;">Ingresar dato</span>
             </div>
             <div class="cerrar">
-                <a href="javascript:cerrarventana();" title="Cerrar ventana"><img src="../../img/cerrar.png" ></a>
+                <a href="javascript:cerrarventana();" title="Cerrar ventana"><img src="../../assets/img/cerrar.png" ></a>
             </div>
         </div>
         <hr>
@@ -106,7 +106,7 @@
             <span style="font-size: 20px;">Editar datos</span>
             </div>
             <div class="cerrar">
-                <a href="javascript:cerrarventana1();" title="Cerrar ventana"><img src="../../img/cerrar.png" ></a>
+                <a href="javascript:cerrarventana1();" title="Cerrar ventana"><img src="../../assets/img/cerrar.png" ></a>
             </div>
         </div>
         <hr>
@@ -120,7 +120,7 @@
             <span style="font-size: 20px;">Herramientas</span>
             </div>
             <div class="cerrar">
-                <a href="javascript:cerrarventana2();" title="Cerrar ventana"><img src="../../img/cerrar.png" ></a>
+                <a href="javascript:cerrarventana2();" title="Cerrar ventana"><img src="../../assets/img/cerrar.png" ></a>
             </div>
     	</div>
     	<hr>
@@ -134,7 +134,7 @@
             <span style="font-size: 20px;">Opciones</span>
             </div>
             <div class="cerrar">
-                <a href="javascript:cerrarventana3();" title="Cerrar ventana"><img src="../../img/cerrar.png" ></a>
+                <a href="javascript:cerrarventana3();" title="Cerrar ventana"><img src="../../assets/img/cerrar.png" ></a>
             </div>
         </div>
         <hr>
@@ -149,7 +149,7 @@
             <span style="font-size: 20px;">Cotizaci&oacute;n</span>
             </div>
             <div class="cerrar">
-                <a href="javascript:cerrarventana4();" title="Cerrar ventana"><img src="../../img/cerrar.png" ></a>
+                <a href="javascript:cerrarventana4();" title="Cerrar ventana"><img src="../../assets/img/cerrar.png" ></a>
             </div>
         </div>
         <hr>

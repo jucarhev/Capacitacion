@@ -28,9 +28,9 @@
 			</div>
 		</td>
 		<td class="center">
-			<a href="" title="Agregar nuevo dato" onclick="ventanajd(1);return false"><img src="../../img/add.png" alt=""></a>
-			<a href="" title="Ver datos terminados" onclick="cursosterminador(0);return false"><img src="../../img/archivos.png" alt=""></a>
-			<a href="" title="Cursos no planeados" onclick="cursosNP(0);return false"><img src="../../img/curso.jpg" alt=""></a>
+			<a href="" title="Agregar nuevo dato" onclick="ventanajd(1);return false"><img src="../../assets/img/add.png" alt=""></a>
+			<a href="" title="Ver datos terminados" onclick="cursosterminador(0);return false"><img src="../../assets/img/archivos.png" alt=""></a>
+			<a href="" title="Cursos no planeados" onclick="cursosNP(0);return false"><img src="../../assets/img/curso.jpg" alt=""></a>
 		</td>
 	</tr>
 </table>

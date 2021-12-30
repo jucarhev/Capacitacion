@@ -32,13 +32,13 @@
 			</form>
 		</div>
 		<div class="col-md-2">
-			<button type="button" onclick="formulario_usuario();return false" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+			<button type="button" onclick="formulario_usuario();return false" class="btn btn-primary">
 				Agregar
 			</button>
 		</div>
 	</div>
 </div>
-
+<div id="testing"></div>
 <table class="table table-bordered table-striped table-hover">
 	<tr>
 		<th>Nombre</th>
@@ -57,9 +57,9 @@
 			echo "<td>".$fila['password']."</td>";
 			echo "<td>".$fila['unidad']."</td>";
 			echo "<td>".$fila['tipouser']."</td>";
-			echo "<td><a href='' onclick='ventana2(".$fila['id'].",2);return false' title='Ver registros'><img src='../../img/lupa.png'></a></td>";
-			echo "<td><a href='' onclick='ventana(".$fila['id'].",2);return false' title='Editar registro'><img src='../../img/pencil.png'></a></td>";
-			echo "<td><a href='' onclick='EliminarUsuario(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../img/del.png'></a></td>";
+			echo "<td><a href='' onclick='ventana2(".$fila['id'].",2);return false' title='Ver registros'><img src='../../assets/img/lupa.png'></a></td>";
+			echo "<td><a href='' onclick='ventana(".$fila['id'].",2);return false' title='Editar registro'><img src='../../assets/img/pencil.png'></a></td>";
+			echo "<td><a href='' onclick='EliminarUsuario(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../assets/img/del.png'></a></td>";
 			echo "</tr>";
 		}
 	}

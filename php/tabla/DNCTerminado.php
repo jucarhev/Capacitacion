@@ -10,14 +10,14 @@
 	</tr>
 	<tr>
 		<td class="center" colspan="2">
-			<a href="" title="" onclick="ventanajd(5);return false"><img src="../../img/add.png" alt=""></a>
+			<a href="" title="" onclick="ventanajd(5);return false"><img src="../../assets/img/add.png" alt=""></a>
 		</td>
 		<td colspan="2">
-			<a href="" title="" onclick="DNCArchivados();return false"><img src="../../img/archivos.png" alt=""></a>
+			<a href="" title="" onclick="DNCArchivados();return false"><img src="../../assets/img/archivos.png" alt=""></a>
 		</td>
 		<td colspan="2">
 			 <?php echo "<a href='../doc/dncfinal.php?unidad=$unidad&dep=$dep&anio=$anio' title='Pasar DNC al plan general' target='_blank'>
-                            <img src='../../img/bajar.png'></a>"; ?>
+                            <img src='../../assets/img/bajar.png'></a>"; ?>
 		</td>
 	</tr>
 </table>
@@ -85,10 +85,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}					
 					}
 				echo "</td>";
@@ -102,10 +102,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}						
 					}
 				echo "</td>";
@@ -117,10 +117,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}						
 					}
 				echo "</td>";
@@ -132,10 +132,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 					}
 				echo "</td>";
@@ -147,10 +147,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}	
 					}
 				echo "</td>";
@@ -162,10 +162,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}	
 					}
 				echo "</td>";
@@ -177,10 +177,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}	
 					}
 				echo "</td>";
@@ -192,10 +192,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}	
 					}
 				echo "</td>";
@@ -207,10 +207,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}	
 					}
 				echo "</td>";
@@ -222,10 +222,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}	
 					}
 				echo "</td>";
@@ -237,10 +237,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}	
 					}
 				echo "</td>";
@@ -252,10 +252,10 @@
 						$firstname=$row['apaterno'];
 						$lastname=$row['amaterno'];
 						if ($tipo == "No sindicalizado") {
-							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='azul'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}
 						else{
-							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../img/ver.png'></a><br>";
+							echo "<span class='rojo'>".$row['nocobro']."</span><a href='#' title='".$name." ".$firstname." ".$lastname."'><img src='../../assets/img/ver.png'></a><br>";
 						}	
 					}
 				echo "</td>";

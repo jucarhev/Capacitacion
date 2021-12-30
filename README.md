@@ -1,15 +1,17 @@
-# Proyecto en remodelacion. Errores presentes, no descargar de momento
-
 # Capacitacion
-Software de control de capacitacion.
 
+## _Software de control de capacitacion._
 
-## Remodelando...
-El presente proyecto esta siendo remodelado pero debido a inprevistos, el desarrollo del proyecto asi como su migracion a tecnologias modernas ha sido migrado a **Laravel 5**, en un repositorio privado, mejorando las capacidades del sistema e implementando mejoras de calidad y seguridad. Si necesita informe contacte al correo del desarrollador. Si necesita el proyecto puede descargarlo y mejorarlo por su cuenta, aunque al ser un proyecto de principiante puede darle problemas varios. Como referencia el proyecto sirve.
+Software para controlar la capacitacion de una empresa. Teniendo tres niveles de usuarios.
 
-* Migrar bootstrap 3
-* Migrara a jquery
+- Administrador
+- Jefe de capacitacion
+- Jefe de departamento
 
-
+## Consideracion
+El sistema esta hecho en php incrustado, no utiliza framework ni librerias, solo fue un proyecto de carrera. Por lo que ahora esta en desuso y no recomendado.
+- usuario: adm
+- contraseña: 123
 ## Actualizaciones
 * 1 de octubre del 2020: Se hizo una modificacion a todo el proyecto para reescribirlo desde cero en la misma carpeta.
+* 29 de Diciembre del 2021: Se hizo funcionarl el proyecto de nuevo, pero no se modifico nada

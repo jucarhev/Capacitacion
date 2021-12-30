@@ -42,7 +42,7 @@
 	echo "<hr>";
 	if ($limite>0) {
 		$limit=$limite- 20;
-		echo "<aside class=\"anterior\" onclick=\"cursosNP(".$limit.")\"><img src='../../img/anterior.png'></aside>";
+		echo "<aside class=\"anterior\" onclick=\"cursosNP(".$limit.")\"><img src='../../assets/img/anterior.png'></aside>";
 	}else
 	{
 		echo "<aside class=\"anteriorvacio\"></aside>";
@@ -50,7 +50,7 @@
 	
 	if ($limite<$total- 20) {
 		$limit=$limite+ 20;
-		echo "<aside class=\"siguiente\" onclick=\"cursosNP(".$limit.")\"><img src='../../img/siguiente.png'></aside>";
+		echo "<aside class=\"siguiente\" onclick=\"cursosNP(".$limit.")\"><img src='../../assets/img/siguiente.png'></aside>";
 	}
 	else{
 		echo "<aside class=\"siguientevacio\"></aside>";

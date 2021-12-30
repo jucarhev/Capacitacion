@@ -22,6 +22,7 @@ function tablaUnidad(limite)
     $.post(url,{limite: limite}, function (responseText){
         $("#cuerpo").html(responseText);
     });
+    console.log('tablaUnidad');
 }
 function tablaUsuario(limite)
 {
@@ -700,8 +701,8 @@ function kardexjc(){
 }
 function trabajador(limite){
     unidad=document.getElementById('SesionUsuarioJefeDepaUnidad').value;
-    departamento=document.getElementById('SesionUsuarioJefeDepartamento').value;
-    var url="../tabla/ConsultaTrabajador.php";
+    departamento=document.getElementById('SesionUsuarioJefeDepa').value;
+    var url="../tabla/trabajador.php";
     $.post(url,{limite:limite,unidad:unidad,departamento:departamento}, function (responseText){
         $("#cuerpo").html(responseText);
     });
@@ -1202,6 +1203,7 @@ function listas(limite){
     });
 }
 function ListasOk(limite){
+    console.log("listasOk");
     unidad=document.getElementById('UnidadSesion').value;
     depa=document.getElementById('DepartamentoSesion').value;
     anio=document.getElementById('AnioSistemaJD').value;
@@ -1920,10 +1922,11 @@ function CursoPresOkJC(id){
     ajax.send("action="+action+"&id="+id)
 }
 function cursosterminador(limite){
+    console.log(limite);
     unidad=document.getElementById('UnidadSesion').value;
     depa=document.getElementById('DepartamentoSesion').value;
     anio=document.getElementById('AnioSistemaJD').value;
-    var url="../tabla/cursosterminado.php";
+    var url="../tabla/cursosTerminado.php";
     $.post(url,{limite:limite,unidad:unidad,depa:depa,anio:anio}, function (responseText){
         $("#cuerpo").html(responseText);
     });

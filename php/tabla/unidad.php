@@ -37,7 +37,7 @@
 		</div>
 	</div>
 </div>
-
+<div id="testing"></div>
 
 <table class="table table-bordered table-striped table-hover">
 	<tr>
@@ -57,9 +57,9 @@
 			echo "<td>".$fila['municipio']."</td>";
 			echo "<td>".$fila['estado']."</td>";
 			echo "<td>".$fila['actividad']."</td>";
-			echo "<td><a href='' onclick='ventana2(".$fila['id'].",1);return false' title='Ver registros'><img src='../../img/lupa.png'></a></td>";
-			echo "<td><a href='' onclick='ventana(".$fila['id'].",1);return false' title='Editar registro'><img src='../../img/pencil.png'></a></td>";
-			echo "<td><a href='' onclick='EliminarUnidad(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../img/del.png'></a></td>";
+			echo "<td><a href='' onclick='ventana2(".$fila['id'].",1);return false' title='Ver registros'><img src='../../assets/img/lupa.png'></a></td>";
+			echo "<td><a href='' onclick='ventana(".$fila['id'].",1);return false' title='Editar registro'><img src='../../assets/img/pencil.png'></a></td>";
+			echo "<td><a href='' onclick='EliminarUnidad(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../assets/img/del.png'></a></td>";
 			echo "</tr>";
 		}
 	}

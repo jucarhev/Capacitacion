@@ -36,7 +36,7 @@
 			echo "<td>".$fila['objetivos']."</td>";
 			echo "<td>".$fila['costocurso']."</td>";
 			echo "<td>".$fila['anio']."</td>";
-			echo "<td><a href='' onclick='VerCursoP2(".$fila['id'].");return false' title='Ver registro'><img src='../../img/lupa.png'></a></td>";
+			echo "<td><a href='' onclick='VerCursoP2(".$fila['id'].");return false' title='Ver registro'><img src='../../assets/img/lupa.png'></a></td>";
 			echo "</tr>";
 		}
 	}

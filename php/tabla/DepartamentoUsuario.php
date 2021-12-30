@@ -29,7 +29,7 @@
 			</div>
 		</td>
 		<td class="center">
-			<a href="" title="" onclick="abrirventanajc(1);return false"><img src="../../img/add.png" alt=""></a>
+			<a href="" title="" onclick="abrirventanajc(1);return false"><img src="../../assets/img/add.png" alt=""></a>
 		</td>
 	</tr>
 </table>
@@ -53,9 +53,9 @@
 			echo "<td>".$fila['usuario']."</td>";
 			echo "<td>".$fila['password']."</td>";			
 			echo "<td>".$fila['tipouser']."</td>";
-			echo "<td><a href='' onclick='ventana2(".$fila['id'].",3);return false' title='Ver registros'><img src='../../img/lupa.png'></a></td>";
-			echo "<td><a href='' onclick='ventana(".$fila['id'].",3);return false' title='Editar registro'><img src='../../img/pencil.png'></a></td>";
-			echo "<td><a href='' onclick='EliminarUsuarioJD(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../img/del.png'></a></td>";
+			echo "<td><a href='' onclick='ventana2(".$fila['id'].",3);return false' title='Ver registros'><img src='../../assets/img/lupa.png'></a></td>";
+			echo "<td><a href='' onclick='ventana(".$fila['id'].",3);return false' title='Editar registro'><img src='../../assets/img/pencil.png'></a></td>";
+			echo "<td><a href='' onclick='EliminarUsuarioJD(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../assets/img/del.png'></a></td>";
 			echo "</tr>";
 		}
 	}
@@ -63,7 +63,7 @@
 	echo "<hr>";
 	if ($limite>0) {
 		$limit=$limite- 20;
-		echo "<aside class=\"anterior\" onclick=\"DepartamentoUser(".$limit.")\"><img src='../../img/anterior.png'></aside>";
+		echo "<aside class=\"anterior\" onclick=\"DepartamentoUser(".$limit.")\"><img src='../../assets/img/anterior.png'></aside>";
 	}else
 	{
 		echo "<aside class=\"anteriorvacio\"></aside>";
@@ -71,7 +71,7 @@
 	
 	if ($limite<$total- 20) {
 		$limit=$limite+ 20;
-		echo "<aside class=\"siguiente\" onclick=\"DepartamentoUser(".$limit.")\"><img src='../../img/siguiente.png'></aside>";
+		echo "<aside class=\"siguiente\" onclick=\"DepartamentoUser(".$limit.")\"><img src='../../assets/img/siguiente.png'></aside>";
 	}
 	else{
 		echo "<aside class=\"siguientevacio\"></aside>";

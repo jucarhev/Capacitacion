@@ -1,10 +1,10 @@
 <div class="izquierda">
 	<div class="tool center" style="cursor: pointer;" onclick="ventanajd2(4);return false">
-		<div><img src="../../img/iconocalendario.png" alt=""></div>
+		<div><img src="../../assets/img/iconocalendario.png" alt=""></div>
 		<div>Seguimiento de los cursos</div>
 	</div>
 	<div class="tool center" style="cursor: pointer;"  onclick="ventanajd2(6);return false">
-		<div><img src="../../img/agenda.jpg" alt=""></div>
+		<div><img src="../../assets/img/agenda.jpg" alt=""></div>
 		<div>Consulta de cursos</div>
 	</div>
 	<div style="clear: both;">

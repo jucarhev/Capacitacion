@@ -24,8 +24,8 @@
 			</div>
 		</td>
 		<td class="center">
-			<a href="" title="Agregar nueva lista" onclick="ventanajd(6);return false"><img src="../../img/add.png" alt=""></a>
-			<a href="" title="Ver listas anteriores" onclick="ListasOk(0);return false"><img src="../../img/listas.jpg" alt=""></a>
+			<a href="" title="Agregar nueva lista" onclick="ventanajd(6);return false"><img src="../../assets/img/add.png" alt=""></a>
+			<a href="" title="Ver listas anteriores" onclick="ListasOk(0);return false"><img src="../../assets/img/listas.jpg" alt=""></a>
 		</td>
 	</tr>
 </table>
@@ -51,7 +51,7 @@
 			echo "<td>".$fila['instructor']."</td>";
 			echo "<td>".$fila['duracion']."</td>";
 			echo "<td>".$fila['departamento']."</td>";
-			echo "<td><a href='' onclick='VerListas(".$fila['id'].");return false' title='Ver registros'><img src='../../img/lupa.png'></a></td>";
+			echo "<td><a href='' onclick='VerListas(".$fila['id'].");return false' title='Ver registros'><img src='../../assets/img/lupa.png'></a></td>";
 			echo "</tr>";
 		}
 	}

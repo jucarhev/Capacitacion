@@ -29,7 +29,7 @@
 			</div>
 		</td>
 		<td class="center">
-			<a href="" title="" onclick="ventanajd(1);return false"><img src="../../img/add.png" alt=""></a>
+			<a href="" title="" onclick="ventanajd(1);return false"><img src="../../assets/img/add.png" alt=""></a>
 		</td>
 	</tr>
 </table>
@@ -53,8 +53,8 @@
 			echo "<td>".$fila['usuario']."</td>";
 			echo "<td>".$fila['password']."</td>";			
 			echo "<td>".$fila['tipouser']."</td>";
-			echo "<td><a href='' onclick='EliminarCurso(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../img/si.gif'></a></td>";
-			echo "<td><a href='' onclick='EliminarCurso(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../img/del.png'></a></td>";
+			echo "<td><a href='' onclick='EliminarCurso(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../assets/img/si.gif'></a></td>";
+			echo "<td><a href='' onclick='EliminarCurso(".$fila['id'].");return false' title='Dar de baja el registros'><img src='../../assets/img/del.png'></a></td>";
 			echo "</tr>";
 		}
 	}
@@ -62,7 +62,7 @@
 	echo "<hr>";
 	if ($limite>0) {
 		$limit=$limite- 20;
-		echo "<aside class=\"anterior\" onclick=\"cursosjd(".$limit.")\"><img src='../../img/anterior.png'></aside>";
+		echo "<aside class=\"anterior\" onclick=\"cursosjd(".$limit.")\"><img src='../../assets/img/anterior.png'></aside>";
 	}else
 	{
 		echo "<aside class=\"anteriorvacio\"></aside>";
@@ -70,7 +70,7 @@
 	
 	if ($limite<$total- 20) {
 		$limit=$limite+ 20;
-		echo "<aside class=\"siguiente\" onclick=\"cursosjd(".$limit.")\"><img src='../../img/siguiente.png'></aside>";
+		echo "<aside class=\"siguiente\" onclick=\"cursosjd(".$limit.")\"><img src='../../assets/img/siguiente.png'></aside>";
 	}
 	else{
 		echo "<aside class=\"siguientevacio\"></aside>";

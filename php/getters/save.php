@@ -225,35 +225,35 @@
 		$status10=$_POST['status10'];
 
 		/* Varialbes de los meses, Hrs SIGNIFICA HORAS Y Min significa Minutos  */
-		$EneroHrs=$_POST['EneroHrs'];
-		$EneroMin=$_POST['EneroMin'];
-		$FebreroHrs=$_POST['FebreroHrs'];
-		$FebreroMin=$_POST['FebreroMin'];
+		$EneroHrs=intval($_POST['EneroHrs']);
+		$EneroMin=intval($_POST['EneroMin']);
+		$FebreroHrs=intval($_POST['FebreroHrs']);
+		$FebreroMin=intval($_POST['FebreroMin']);
 
-		$MarzoHrs=$_POST['MarzoHrs'];
-		$MarzoMin=$_POST['MarzoMin'];
-		$AbrilHrs=$_POST['AbrilHrs'];
-		$AbrilMin=$_POST['AbrilMin'];
+		$MarzoHrs=intval($_POST['MarzoHrs']);
+		$MarzoMin=intval($_POST['MarzoMin']);
+		$AbrilHrs=intval($_POST['AbrilHrs']);
+		$AbrilMin=intval($_POST['AbrilMin']);
 
-		$MayoHrs=$_POST['MayoHrs'];
-		$MayoMin=$_POST['MayoMin'];
-		$JunioHrs=$_POST['JunioHrs'];
-		$JunioMin=$_POST['JunioMin'];
+		$MayoHrs=intval($_POST['MayoHrs']);
+		$MayoMin=intval($_POST['MayoMin']);
+		$JunioHrs=intval($_POST['JunioHrs']);
+		$JunioMin=intval($_POST['JunioMin']);
 
-		$JulioHrs=$_POST['JulioHrs'];
-		$JulioMin=$_POST['JulioMin'];
-		$AgostoHrs=$_POST['AgostoHrs'];
-		$AgostoMin=$_POST['AgostoMin'];
+		$JulioHrs=intval($_POST['JulioHrs']);
+		$JulioMin=intval($_POST['JulioMin']);
+		$AgostoHrs=intval($_POST['AgostoHrs']);
+		$AgostoMin=intval($_POST['AgostoMin']);
 
-		$SeptiembreHrs=$_POST['SeptiembreHrs'];
-		$SeptiembreMin=$_POST['SeptiembreMin'];
-		$OctubreHrs=$_POST['OctubreHrs'];
-		$OctubreMin=$_POST['OctubreMin'];
+		$SeptiembreHrs=intval($_POST['SeptiembreHrs']);
+		$SeptiembreMin=intval($_POST['SeptiembreMin']);
+		$OctubreHrs=intval($_POST['OctubreHrs']);
+		$OctubreMin=intval($_POST['OctubreMin']);
 
-		$NoviembreHrs=$_POST['NoviembreHrs'];
-		$NoviembreMin=$_POST['NoviembreMin'];
-		$DiciembreHrs=$_POST['DiciembreHrs'];
-		$DiciembreMin=$_POST['DiciembreMin'];
+		$NoviembreHrs=intval($_POST['NoviembreHrs']);
+		$NoviembreMin=intval($_POST['NoviembreMin']);
+		$DiciembreHrs=intval($_POST['DiciembreHrs']);
+		$DiciembreMin=intval($_POST['DiciembreMin']);
 
 		/* Los valores de las horas y de los minutos se guardan  aqui. los minutos se convierten segun la regla de tres
 		 * posteriormente se concatenan con las horas y se guardan */
@@ -368,7 +368,7 @@
 		VALUES ('$curso','$Mesesdnc','$nocobro','$DepartamentoSesion','$UnidadSesion','$CalActDNC','$CalPlaDNC','$anioDNC','$tipo','$status')";
 		if ($con->query($query))
 		{
-			echo "Registro grabado correctamente";
+			echo $query;
 		}
 		else
 		{

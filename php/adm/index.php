@@ -14,15 +14,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon" />
 	<title>Administrador</title>
-	<link rel="stylesheet" href="../../css/estilos.css">
-	<link rel="stylesheet" href="../../css/menu.css">
-	<link rel="stylesheet" href="../../css/ventanas.css">
-    <link rel="stylesheet" href="../../css/bootstrap.css">
-    <script src="../../js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<link rel="stylesheet" href="../../assets/css/estilos.css">
+	<link rel="stylesheet" href="../../assets/css/menu.css">
+	<link rel="stylesheet" href="../../assets/css/ventanas.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css">
+    <script src="../../assets/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8" async defer></script>
     <script type="text/javascript" src="ajaxupload.js"></script>
-    <script src="../../js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
-    <script src="../../js/funciones.js" type="text/javascript" charset="utf-8" async defer></script>
-    <script src="../../js/funcion_adm.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../assets/js/funciones.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../assets/js/funcion_adm.js" type="text/javascript" charset="utf-8" async defer></script>
 
 </head>
 <body>
@@ -146,11 +146,11 @@
     </div>
 </div>
 
-    <script src="../../js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../assets/js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8" async defer></script>
     <script type="text/javascript" src="ajaxupload.js"></script>
-    <script src="../../js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
-    <script src="../../js/funciones.js" type="text/javascript" charset="utf-8" async defer></script>
-    <script src="../../js/funcion_adm.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../assets/js/funciones.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="../../assets/js/funcion_adm.js" type="text/javascript" charset="utf-8" async defer></script>
 <body onload="javascript:PaginaPrincipal();CargarImagen();">
 </body>
 </html>

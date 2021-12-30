@@ -27,8 +27,8 @@
 			</div>
 		</td>
 		<td class="center">
-			<a href="" title="Agregar nueva lista" onclick="ventanajd(6);return false"><img src="../../img/add.png" alt=""></a>
-			<a href="" title="Ver listas anteriores" onclick="ListasOk(0);return false"><img src="../../img/listas.jpg" alt=""></a>
+			<a href="" title="Agregar nueva lista" onclick="ventanajd(6);return false"><img src="../../assets/img/add.png" alt=""></a>
+			<a href="" title="Ver listas anteriores" onclick="ListasOk(0);return false"><img src="../../assets/img/listas.jpg" alt=""></a>
 		</td>
 	</tr>
 </table>
@@ -58,7 +58,7 @@
 			echo "<td>".$fila['duracion']."</td>";
 			echo "<td>".$fila['departamento']."</td>";
 			echo "<td>".$fila['mes']."</td>";
-			echo "<td><a href='' onclick='VerListas(".$fila['id'].");return false' title='Ver registros'><img src='../../img/lupa.png'></a></td>";
+			echo "<td><a href='' onclick='VerListas(".$fila['id'].");return false' title='Ver registros'><img src='../../assets/img/lupa.png'></a></td>";
 			echo "</tr>";
 		}
 	}
@@ -66,7 +66,7 @@
 	echo "<hr>";
 	if ($limite>0) {
 		$limit=$limite- 20;
-		echo "<aside class=\"anterior\" onclick=\"ListasOk(".$limit.")\"><img src='../../img/anterior.png'></aside>";
+		echo "<aside class=\"anterior\" onclick=\"ListasOk(".$limit.")\"><img src='../../assets/img/anterior.png'></aside>";
 	}else
 	{
 		echo "<aside class=\"anteriorvacio\"></aside>";
@@ -74,7 +74,7 @@
 	
 	if ($limite<$total- 20) {
 		$limit=$limite+ 20;
-		echo "<aside class=\"siguiente\" onclick=\"ListasOk(".$limit.")\"><img src='../../img/siguiente.png'></aside>";
+		echo "<aside class=\"siguiente\" onclick=\"ListasOk(".$limit.")\"><img src='../../assets/img/siguiente.png'></aside>";
 	}
 	else{
 		echo "<aside class=\"siguientevacio\"></aside>";

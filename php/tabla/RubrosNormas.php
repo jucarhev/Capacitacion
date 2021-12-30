@@ -34,19 +34,19 @@ include("../conf/conf.php");
 			$total=$ress->num_rows;
 			echo "<td rowspan='".$total."'>".$fila['rubro']."</td>";
 			echo "<td rowspan='".$total."'>
-				<a href='' onclick='ventana(".$idRubro.",5);return false' title='Dar de baja el registros'><img src='../../img/pencil.png'></a>
+				<a href='' onclick='ventana(".$idRubro.",5);return false' title='Dar de baja el registros'><img src='../../assets/img/pencil.png'></a>
 			</td>";
 			echo "<td rowspan='".$total."'>
-				<a href='' onclick='EliminarRubro(".$idRubro.");return false' title='Dar de baja el registros'><img src='../../img/del.png'></a>
+				<a href='' onclick='EliminarRubro(".$idRubro.");return false' title='Dar de baja el registros'><img src='../../assets/img/del.png'></a>
 			</td>";
 			while ($filas=$ress->fetch_array()) {
 				echo "<td>".$filas['codigo']."</td>";
 				echo "<td>".$filas['nombrenorma']."</td>";
 				echo "<td>
-					<a href='' onclick='ventana(".$filas['id'].",6);return false' title='Dar de baja el registros'><img src='../../img/pencil.png'></a>
+					<a href='' onclick='ventana(".$filas['id'].",6);return false' title='Dar de baja el registros'><img src='../../assets/img/pencil.png'></a>
 				</td>";
 				echo "<td>
-						<a href='' onclick='EliminarNorma(".$filas['id'].");return false' title='Dar de baja el registros'><img src='../../img/del.png'></a>
+						<a href='' onclick='EliminarNorma(".$filas['id'].");return false' title='Dar de baja el registros'><img src='../../assets/img/del.png'></a>
 					</td>";
 				echo "</tr>";
 			}

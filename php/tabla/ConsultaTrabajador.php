@@ -34,7 +34,7 @@
 			echo "<td>".$fila['apaterno']."</td>";
 			echo "<td>".$fila['amaterno']."</td>";
 			echo "<td>".$fila['departamento']."</td>";
-			echo "<td><a href='' onclick='ventana2(".$fila['id'].",4);return false' title='Ver registros'><img src='../../img/lupa.png'></a></td>";
+			echo "<td><a href='' onclick='ventana2(".$fila['id'].",4);return false' title='Ver registros'><img src='../../assets/img/lupa.png'></a></td>";
 			echo "</tr>";
 		}
 	}
